@@ -1,0 +1,116 @@
+/* Css file for admin*/
+.left-side-menu{
+	background:#280027;
+}
+.mdi.mdi-menu {
+  color: #fff;
+}
+.side-nav .side-nav-link span {
+    vertical-align: middle;
+    color: #ddd;
+}
+.side-nav .side-nav-link span:hover{
+    color:#f5f5f5;
+}
+.side-nav .side-nav-link i {
+    color: #ddd;
+}
+.side-nav .side-nav-link i:hover{
+    color:#f5f5f5;
+}
+.side-nav-second-level li a, .side-nav-third-level li a {
+    color: #f5f5f5 !important;
+}
+.side-nav .mm-active>a {
+    color:#f5f5f5 !important;
+}
+.side-nav-second-level li a, .side-nav-third-level li a:hover{
+    color: #ddd !important;
+}
+.help-box {
+  background: transparent;
+}
+.simplebar-mask {
+    background: #280027;
+}
+.navbar-custom {
+    background-color: #3c003b;
+   box-shadow: none;
+}
+.navbar-custom .topbar-right-menu .nav-link{
+    background-color: #6a0069;
+    border: 1px solid #6a0069;
+    color: #f1f1f1;
+}
+.navbar-custom .topbar-right-menu li.show .nav-link{
+    color: #f1f1f1;
+}
+.table .thead-dark th{
+    background-color: #3c003b;
+    border-color: #3c003b;
+    color: #f1f1f1;
+}
+.btn-outline-light {
+    color: #a7abb1;
+    border-color: #a7abb1;
+}
+h3.text-white.logo{
+	color:#222 !important;
+	margin-left: -38px;
+    margin-top: -5px;
+    font-size: 26px;
+}
+/*-----*/
+
+.table-action i{
+	color:#fff;
+}
+.table-action a.btn.btn-primary{
+	background-color:#3c003b;
+    border:1px solid #3c003b;
+    box-shadow:none;
+}
+.table-action a.btn.btn-warning{
+	background-color:#7e7ec5;
+    border:1px solid #7e7ec5;
+    box-shadow:none;
+}
+.table-action button.btn.btn-danger{
+	background-color:#b0bff9;
+    border:1px solid #b0bff9;
+    box-shadow:none;
+}
+.card-body .text-right a.btn.btn-success{
+    background-color: #a7a7ed;
+    box-shadow: 4px 2px 10px #9da8d7;
+    border-color: #a7a7ed;
+}
+.card-header button.btn.btn-warning.btn-sm{
+    background-color: #dfe2e5;
+    box-shadow: 4px 2px 8px #dfe2e5;
+    border-color: #d1d2d3;
+    color: #0e0e0e;
+}
+.card-header a.btn.btn-dark.btn-sm{
+    background-color: #5a5959;
+    border-color: #5a5959;
+    color:#fff;	
+}
+.auth-fluid .auth-fluid-form-box{
+    background-color: #350036;
+}
+.auth-fluid h4{
+    color: #f1f1f1!important;
+}
+.auth-fluid p{
+    color: #eee!important;
+}
+.auth-fluid label{
+    color: #eee!important;
+}
+.auth-brand{
+    margin-bottom: 4rem;
+}
+.metismenu ul{
+    background: #380037;
+}

@@ -1,0 +1,701 @@
+
+    @font-face {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/American-Captain.woff);
+    }
+
+    @font-face {
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Bahnschrift.woff);
+    }
+
+    @font-face {
+    font-family: 'Arial Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/ARIAL.woff);
+    }
+
+    @font-face {
+    font-family: 'Kanit Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Kanit Thin'), url(../fonts/Kanit-Thin.woff) format('woff');
+    }
+
+    @font-face {
+    font-family: 'Kanit Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Kanit Medium'), url(../fonts/Kanit-Light.woff) format('woff');
+    }
+
+    @font-face {
+    font-family: 'Kanit Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Kanit Medium'), url(../fonts/Kanit-Medium.woff) format('woff');
+    }
+
+body{
+    font-family: 'American Captain';
+    letter-spacing: 2px;
+}
+.home-page{
+    background-image: url(../css/images/home-bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -142px
+}
+.games-page{
+    background-image: url(../css/images/game-bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -142px
+}
+.player-registration{
+    background-image: url(../css/images/registration-bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -142px
+}
+.contact-bg{
+    background-image: url(../css/images/registration-bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -142px
+}
+.stores-distributors{
+    background-image: url(../css/images/registration-bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -142px
+}
+.registration-form{
+    max-width: 50%;
+    margin: 0 auto;
+    font-family: 'Kanit Light';
+}
+.distributors {
+    margin: 50px 0;
+    letter-spacing: 0;
+    color: #fff;
+}
+.text-danger {
+    background: #f73030;
+    color: #fff;
+    letter-spacing: 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 11px #d5d5d561;
+}
+.alert-success{
+    letter-spacing: 0;
+}
+.alert-success ul{
+    list-style: none;
+}
+
+.glossy-button {
+  display: inline-block;
+  position: relative;
+  background-color: #AAA;
+  background-image: linear-gradient( /* chrome */
+    hsla(0, 0%, 100%, 0.6), hsla(0, 0%, 100%, 0) 50%,
+    hsla(0, 0%, 0%, 0.3) 50%, hsla(0, 0%, 100%, 0.2)
+  );
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  padding: 20px 40px;
+  text-shadow:
+    0 0 15px hsla(0, 0%, 100%, 1), /* bloom */
+    0 2px 4px hsla(0, 0%, 0%, 0.7); /* drop shadow */
+  border: none;
+  border-radius: 50px;
+  margin: 10px;
+  box-shadow:
+    inset 0 -5px 20px hsla(0, 0%, 0%, 0.4), /* top light */
+    inset 0 5px 20px hsla(0, 0%, 100%, 0.4), /* bottom shadow */
+    /* multiple light sources yall */
+    -8px 8px 5px hsla(0, 0%, 0%, 0.15), /* drop shadow 1 */
+    5px 18px 10px hsla(0, 0%, 0%, 0.2); /* drop shadow 2 */
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+.btn-play {
+    background: #66044f;
+    color: #eee;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 12px 50px;
+    letter-spacing: 5px;
+    text-shadow: -1px -1px 6px #000;
+    float: right;
+}
+.btn-play:hover {
+    background: #400031;
+    color: #fff;
+}
+/* highlight */
+/*.glossy-button:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: 5px;
+  height: 30px;
+  border-radius: 15px;
+  background: linear-gradient(
+    hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0) );
+}*/
+
+.glossy-button--gold { 
+    background-color: #db05f5;
+    float: right;
+    font-size: 20px;
+ }
+
+.glossy-button:hover {
+  transform: scale(1.05);
+  box-shadow:
+    inset 0 -5px 20px hsla(0, 0%, 0%, 0.4), /* top light */
+    inset 0 5px 20px hsla(0, 0%, 100%, 0.4), /* bottom shadow */
+    /* multiple light sources yall */
+    -12px 12px 5px hsla(0, 0%, 0%, 0.15), /* drop shadow 1 */
+    10px 25px 10px hsla(0, 0%, 0%, 0.2); /* drop shadow 2 */
+}
+
+
+
+
+.distributors h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Kanit Medium';
+}
+.distributors p{
+    font-size: 16px;
+    font-family: 'Kanit Thin';
+}
+.player-registration h1 {
+    font-size: 45px;
+    color: #fff;
+    letter-spacing: 10px;
+    text-shadow: -1px -1px 4px #000;
+    padding: 15px 0 50px 0;
+    font-family: 'American Captain';
+    text-align: center;
+}
+.contact-bg h1 {
+    font-size: 45px;
+    color: #fff;
+    letter-spacing: 10px;
+    text-shadow: -1px -1px 4px #000;
+    padding: 15px 0 50px 0;
+    font-family: 'American Captain';
+    text-align: center;
+}
+.stores-distributors h1 {
+    font-size: 45px;
+    color: #fff;
+    letter-spacing: 10px;
+    text-shadow: -1px -1px 4px #000;
+    padding: 15px 0 50px 0;
+    font-family: 'American Captain';
+    text-align: center;
+}
+.games-page h1 {
+    font-size: 45px;
+    color: #fff;
+    letter-spacing: 10px;
+    text-shadow: -1px -1px 4px #000;
+    padding: 15px 0 50px 0;
+    font-family: 'American Captain';
+    text-align: center;
+}
+.footer ul{
+    margin-bottom: 0;
+    padding-bottom: 25px;
+}
+.games-page .tab-content{
+    text-align: center;
+}
+.tab-content ul {
+    margin: 0 auto;
+    max-width: 80%;
+    padding-top: 25px;
+}
+.nav-pills {
+    display: flex;
+    justify-content: center;
+}
+.game-tab img {
+    margin-bottom: 10px;
+}
+.game-tab .nav-pills>li.active>a {
+    background: #91006f;
+    color: #eee;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 10px 24px;
+    letter-spacing: 5px;
+    text-shadow: -1px -1px 6px #000;
+}
+.game-tab .nav-pills>li>a {
+    background: #76005b7a;
+    color: #eeeeee8a;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 10px 24px;
+    letter-spacing: 5px;
+    text-shadow: none;
+}
+.registration-form .input-group{
+   padding-bottom: 20px;
+}
+.registration-form .checkbox{
+   max-width: 50%;
+   margin: 0 auto;
+   color: #ddd;
+   letter-spacing: 1px;
+   font-family: 'Kanit Thin';
+}
+.registration-form .checkbox a{
+    color: #fff;
+    font-family: 'Kanit Medium';
+}
+.registration-form .checkbox a:hover{
+    text-decoration: none;
+}
+.registration-form button {
+    font-family: 'American Captain';
+    float: none;
+    margin-top: 10px;
+}
+.step-content {
+    margin: 50px 0;
+}
+.step-one{
+    padding-top: 4px;
+}
+.step-one h3{
+    color: #fff;
+    letter-spacing: 0;
+    font-family: 'Kanit Medium';
+    font-size: 18px;
+    line-height: 0;
+}
+.step-one a{
+    color: #ee15ff;
+    letter-spacing: 0;
+    font-family: 'Kanit Medium';
+    font-size: 18px;
+    line-height: 0;
+    text-decoration: underline;
+}
+.step-one h6{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: 'Kanit Thin';
+
+}
+.step-one p{
+    color: #eee;
+    letter-spacing: 0;
+    font-family: 'Kanit Thin';
+    font-size: 18px;
+}
+.registration-form .form-control{
+    height: 54px;
+    color: #f1f1f1;
+    background-color: #00000094;
+    border: 1px solid #ffffff96;
+    border-radius: 10px;
+    border-left: 0;
+    padding: 6px 0;
+    font-size: 16px;
+    font-family: 'Kanit Light';
+}
+.margin-top{
+    margin-top: 100px;
+}
+.registration-form textarea {
+    padding: 12px 20px !important;
+    min-height: 120px;
+    border-left: 1px solid #ffffff96!important;
+}
+.registration-form .input-group-addon {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #00000094;
+    border: 1px solid #ffffff96;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+    padding: 0px 15px 0 20px;
+}
+.sweep-slot{
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+.sweep-slot h1 {
+    font-size: 72px;
+    text-align: right;
+    color: #f1f1f1;
+    letter-spacing: 15px;
+    margin-bottom: 20px;
+}
+.registration-width{
+    width: 200px;
+}
+.desktop-header .navbar-brand{
+    padding: 5px;
+}
+.desktop-header nav ul{
+    padding-top: 20px;
+}
+.desktop-header .nav>li>a{
+    padding: 30px;
+    color: #f3f3f3;
+    font-size: 22px;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000;
+}
+.desktop-header .nav>li>a:hover{
+    background: #66044f;
+}
+
+.img-smash {
+    margin: 0 auto;
+    margin-top: -65px;
+    z-index: 1;
+    position: relative;
+}
+.about-bg{
+    background-image: url(../css/images/about-bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-bg h2 {
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 7px;
+    line-height: 58px;
+    text-shadow: -2px -2px 6px #000;
+    z-index: 11;
+    position: relative;
+    padding-top: 15px;
+}
+.fish-text{
+    padding-top: 50px;
+}
+.fish-text p {
+    color: #f1f1f1;
+    font-family: 'Arial Regular';
+    letter-spacing: 0.3px;
+    font-size: 16px;
+    line-height: 28px;
+    font-style: italic;
+    text-shadow: 3px 3px 5px #000;
+}
+.coin-box {
+    margin-top: 30px;
+}
+.footer p,.footer a{
+    font-family: 'Bahnschrift';
+    color: #ccc;
+    font-size: 15px;
+    text-shadow: 3px 3px 5px #000;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus, {   
+  border-color: transparent;
+  box-shadow: none;
+  outline: 0 none;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid #f1f1f1;
+  -webkit-text-fill-color: #f1f1f1;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+.privacy-policy{
+    color: #f1f1f1;
+}
+.privacy-policy a{
+    color: #ee15ff;
+}
+.privacy-policy p, .privacy-policy ul li{
+    font-family: 'Kanit Thin';
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+@media (min-width: 1px) and (max-width:  320px){
+#myNavbar{
+    min-width: 320px !important;
+    
+}
+#myNavbar a{
+    font-size: 18px!important;
+}
+#myNavbar i{
+    padding: 9px 9px!important;
+}
+}
+@media (min-width: 321px) and (max-width:  360px){
+#myNavbar{
+    min-width: 360px !important;
+}    
+}
+@media (min-width: 361px) and (max-width:  375px){
+#myNavbar{
+    min-width: 375px !important;
+}  
+}
+@media (min-width: 376px) and (max-width:  390px){
+#myNavbar{
+    min-width: 390px !important;
+}  
+}
+@media (min-width: 391px) and (max-width:  414px){
+#myNavbar{
+    min-width: 414px !important;
+}  
+}
+@media (min-width: 415px) and (max-width:  430px){
+#myNavbar{
+    min-width: 428px !important;
+}   
+}
+
+/*Responsive CSS*/
+@media (max-width: 767px) {
+.navbar-toggle {
+  padding: 16px 15px;
+  margin: 0 10px 0 0;
+  border: 2px solid #bbb;
+  background: linear-gradient(180deg, rgba(48,0,66,1) 0%, rgba(155,23,179,1) 100%);
+  border-radius: 50px;
+  top: -10px;
+  z-index: 1111;
+  right: -8px;
+}
+.about-bg .margin-top{
+    margin-top: 100px;
+}
+.registration-form .checkbox {
+  max-width: 80%;
+}
+#myNavbar{
+    min-width: 375px;
+    margin-left: -16px;
+}
+.desktop-header nav ul {
+  padding-top: 100px;
+}
+.navbar-toggle .icon-bar {
+  width: 16px;
+  height: 2px;
+  border-radius: 1px;
+  background: #fff;
+}
+.sweep-slot h1 {
+  font-size: 45px;
+  text-align: right;
+  color: #f1f1f1;
+  letter-spacing: 6px;
+  margin-bottom: 20px;
+}
+.about-bg{
+    background-image: url(../css/images/about-bg-mob.jpg);
+}
+.games-page {
+  margin-top: -122px;
+  background-image: url(../css/images/game-bg-mob.jpg);
+}
+.home-page {
+  margin-top: -122px;
+  background-image: url(../css/images/home-bg-mob.jpg);
+}
+.player-registration{
+    background-image: url(../css/images/registration-bg-mob.jpg);
+    margin-top: -122px;
+}
+.contact-bg{
+    background-image: url(../css/images/contact-bg-mob.jpg);
+    margin-top: -122px;
+}
+.stores-distributors{
+    background-image: url(../css/images/storage-bg-mob.jpg);
+    margin-top: -122px;
+}
+.games-content {
+  position: relative;
+  top: 60px;
+}
+.coin-box {
+  top: 0;
+}
+.registration-width{
+    width: 100%;
+}
+.navbar-collapse {
+  position: absolute;
+  background: linear-gradient(180deg, rgba(81,13,95,1) 0%, rgba(165,31,174,1) 100%);
+  z-index: 111;
+  width: 100%;
+  top: -52px;
+  border-radius: 0;
+}
+
+.desktop-header .nav > li > a {
+  padding: 18px;
+  color: #f3f3f3;
+  font-size: 24px;
+  text-align: right;
+  text-shadow: -1px -1px 4px #000;
+  margin-bottom: 15px;
+}
+.desktop-header .nav > li{
+    padding: 0 10px;
+}
+.player-registration h1 {
+  letter-spacing: 5px;
+  padding: 15px 0 25px 0;
+}
+.contact-bg h1 {
+  letter-spacing: 5px;
+  padding: 15px 0 25px 0;
+}
+.stores-distributors h1 {
+  letter-spacing: 5px;
+  padding: 15px 0 25px 0;
+}
+.games-page h1{
+  letter-spacing: 10px;
+  padding: 15px 0 25px 0;
+}
+.game-tab .nav-pills > li.active > a {
+  font-size: 20px;
+  padding: 10px 15px;
+}
+.game-tab .nav-pills > li > a {
+    font-size: 20px;
+    padding: 10px 15px;
+}
+.registration-form {
+  max-width: 100%;
+}
+.game-tab{
+    margin-top: -30px;
+}
+.tab-content ul {
+  max-width: 100%;
+}
+.distributors {
+  margin-top: -25px;
+}
+/*.desktop-header .container{
+    padding-right: 0;
+    padding-left: 0;
+}*/
+#home ul li {
+  float: left;
+  max-width: 50%;
+}
+#menu1 ul li {
+  float: left;
+  max-width: 50%;
+}
+#menu2 ul li {
+  float: left;
+  max-width: 50%;
+}
+#menu3 ul li {
+  float: left;
+  max-width: 50%;
+}
+#myNavbar i {
+  background: linear-gradient(180deg, rgba(8, 0, 11, 0.7) 0%, rgba(238, 238, 238, 0.58) 100%);
+  padding: 11px 11px;
+  border-radius: 50px;
+  margin-left: 10px;
+  background: #0003;
+  margin-right: -10px;
+}
+.fish-text {
+  padding-top: 10px;
+}
+}
+
+@supports (-webkit-touch-callout: none) {
+@media (max-width: 767px) {
+.contact-bg h1 {
+    margin-top: 100px;
+}
+.player-registration h1{
+    margin-top: 100px;
+}
+.stores-distributors h1{
+    margin-top: 100px;
+}
+.games-page h1{
+    margin-top: 100px;
+}
+}
+}
+
+@media (min-width: 1920px) and (max-width:  2400px){
+.sweep-slot {
+  padding-top: 500px;
+  padding-bottom: 280px;
+} 
+}
